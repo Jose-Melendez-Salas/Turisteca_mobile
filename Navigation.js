@@ -75,7 +75,7 @@ function MyTabs() {
 }
 
 export default function Navigation() {
-    const [isAuthenticated, setIsAuthenticated] = useState(true);
+    const [isAuthenticated, setIsAuthenticated] = useState(false);
 
     return (
         <NavigationContainer>
