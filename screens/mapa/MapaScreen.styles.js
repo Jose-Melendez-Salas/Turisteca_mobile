@@ -1,0 +1,77 @@
+
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+    map: {
+      flex: 1,
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      zIndex: -1,
+    },
+    shee: {
+      flex: 1,
+      padding: 20,
+      justifyContent: 'center',
+      alignItems: 'center',
+      maxHeight: 180,
+      alignSelf: 'flex-start',
+      backgroundColor: '#fff',
+      borderTopLeftRadius: 16,
+      borderTopRightRadius: 16,
+    },
+    btn: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'center',
+      borderRadius: 30,
+      paddingVertical: 4,
+      paddingHorizontal: 19,
+      borderWidth: 1,
+      backgroundColor: '#075eec',
+      borderColor: '#075eec',
+    },
+    btnText: {
+      fontSize: 14,
+      lineHeight: 26,
+      fontWeight: '600',
+      color: '#fff',
+    },
+    buttonContainer: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      width: '100%',
+      marginTop: 10,
+      gap: 2,
+    },
+    input: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      marginBottom: 10,
+      paddingHorizontal: 10,
+      paddingVertical: 2,
+      backgroundColor: '#fff',
+      borderRadius: 12,
+      borderWidth: 1,
+      borderColor: '#C9D3DB',
+    },
+    inputControl: {
+      flex: 1,
+      height: '100%',
+      width: '100%',
+      backgroundColor: '#fff',
+      paddingHorizontal: 16,
+      borderRadius: 12,
+      fontSize: 15,
+      fontWeight: '500',
+      color: '#222',
+      borderWidth: 1,
+      borderColor: 'white',
+      borderStyle: 'solid',
+    },
+  });
+
+  export default styles;
