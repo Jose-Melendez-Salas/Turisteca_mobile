@@ -36,7 +36,7 @@ const UsuarioScreen = () =>{
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Ajustes</Text>
 
-        <View style={styles.row}>
+ {/*       <View style={styles.row}>
           <View style={[styles.rowIcon, { backgroundColor: '#007afe' }]}>
             <FeatherIcon color="#fff" name="moon" size={20} />
           </View>
@@ -47,7 +47,7 @@ const UsuarioScreen = () =>{
             value={form.darkMode}
           />
         </View>
-
+ */}
         <View style={styles.row}>
           <View style={[styles.rowIcon, { backgroundColor: '#38C959' }]}>
             <FeatherIcon color="#fff" name="bell" size={20} />
