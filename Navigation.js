@@ -5,12 +5,12 @@ import { NavigationContainer } from "@react-navigation/native";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 
 // Screens
-import HomeScreen from "./screens/HomeScreen";
-import MapaScreen from "./screens/MapaScreen";
-import CalculadoraScreen from "./screens/CalculadoraScreen";
-import UsuarioScreen from "./screens/UsuarioScreen";
-import LoginScreen from "./screens/LoginScreen";
-import RegisterScreen from "./screens/RegisterScreen";
+import HomeScreen from "./screens/home/HomeScreen";
+import MapaScreen from "./screens/mapa/MapaScreen";
+import CalculadoraScreen from "./screens/calculadora/CalculadoraScreen";
+import UsuarioScreen from "./screens/ajustes/UsuarioScreen";
+import LoginScreen from "./screens/inicio/LoginScreen";
+import RegisterScreen from "./screens/inicio/RegisterScreen";
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();

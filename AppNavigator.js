@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import LoginScreen from "./screens/LoginScreen";
-import RegisterScreen from "./screens/RegisterScreen";
+import LoginScreen from "./screens/inicio/LoginScreen";
+import RegisterScreen from "./screens/inicio/RegisterScreen";
 import MyTabs from "./Navigation"; // Importamos el Tab Navigator
 
 const Stack = createStackNavigator();
